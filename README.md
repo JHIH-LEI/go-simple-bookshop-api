@@ -1,3 +1,5 @@
+## init
+
 go mod init <module-name>
 
 ## 安裝dependency
