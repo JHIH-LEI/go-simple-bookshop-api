@@ -5,7 +5,7 @@ go mod init <module-name>
 ## 安裝dependency
 go get -u github.com/gin-gonic/gin
 
-## sart
+## start
 go run main.go
 
 ## test
@@ -63,7 +63,9 @@ response:
 }
 ```
 失敗狀況：
+```
 curl localhost:8080/books/11
 {
     "message": "Book not found."
 }
+```
